@@ -4,7 +4,7 @@ let alpha = 0;
 let accelX = 0, accelY = 0, accelZ = 0;
 
 if (window.DeviceOrientationEvent && window.DeviceMotionEvent) {
-    console.log("DeviceOrientationEvent and DeviceMotionEvent supported.");
+    alert("DeviceOrientationEvent and DeviceMotionEvent supported.");
     window.addEventListener('deviceorientation', handleOrientation, true);
     window.addEventListener('devicemotion', handleMotion, true);
 
